@@ -1,0 +1,516 @@
+/* -------------------------- Nav Bar (Mobile and iPad)--------------------  */
+@media only screen and (max-width: 1170px){
+    .uni-padding{
+        padding: 0;
+    }
+    #nav-bar{
+        background: #012a77;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        z-index: 1;
+        left: -300px;
+        transition: all 0.5s ease;
+    }
+    #nav, #nav-contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #nav a, #nav-contact a{
+        margin: 20px 30px;
+    }
+
+    /* login and get started btn */
+    #header-btn-container{
+        width: 80%;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: start;
+    }
+
+    /* Nav Bar btn  */
+    #nav-close-btn{
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 65px;
+    }
+    #nav-close-btn a i{ 
+        color: white;
+        font-size: 30px;
+    }
+    #menu-bar-btn i{
+        color: white;
+        margin: 10px 25px ;
+        font-size: 30px;
+    }
+    #menu-bar-btn, #nav-close-btn{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* -------------------------------------- nest Hub Size ----------------------------  */
+@media only screen and (max-width: 1170px){
+    #section1 p{
+        width: 80%;
+    }
+    
+    #section2{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    #section3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #section4-club-container{
+        height: 480px;
+    }
+
+    #section6-team-container{
+        height: 480px;
+    }
+
+    footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1170px){
+    /* header{
+        background-position: bottom 0 right -150px;
+    } */
+
+    #section1{
+        width: 60%;
+    
+    }
+    /* ------------------- section 2 ( Profiles ) --------------  */
+    #section2{
+        height: auto;
+        justify-content: start;
+    }
+    #all-profiles-container{
+        height: 750px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 370px 370px;
+        justify-content: space-evenly;
+    }
+    .p-card{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* ------------------ section 3 ( Blogs ) -----------------  */
+    #section3{
+        height: auto;
+        justify-content: start;
+    }
+    #blog-container{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 500px 500px;
+        justify-content: space-evenly;
+    }
+    .b-card{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ------------------ section 4 ( Club )---------------  */
+    #section4{
+        height: auto;
+        justify-content: start;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    #section4-club-container{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 500px 500px;
+        justify-content: space-evenly;
+    }
+    .c-card{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ------------------ section 6 ( team )---------------  */
+    #section6{
+        height: auto;
+        justify-content: start;
+        padding-top: 15px;
+    }
+    #section6-team-container{
+        height: 1000px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 500px 500px;
+        justify-content: space-evenly;
+    }
+    .t-card{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* #section2{
+        display: none;
+    } */
+    /* #section3{
+        display: none;
+    } */
+    /* #section4{
+        display: none;
+    } */
+    /* #section5{
+        display: none;
+    } */
+    /* #section6{
+        display: none;
+    } */
+    /* #section7{
+        display: none;
+    } */
+
+}
+
+
+
+/* ------------------------------------ for mobile view ------------------------------------------------  */
+@media only screen and (max-width: 600px){
+    #nav-close-btn a i{ 
+        font-size: 25px;
+    }
+    #menu-bar-btn i{
+        font-size: 25px;
+    }
+
+    header{
+        background: url(../images/background_mobile.png);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #section1{
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+    
+    }
+    #section1 h1{
+        font-size: 28px;
+        margin-top: 40px;
+    }
+    
+    #section1 p{
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    /* --------------------------------- section 2 ----------------------------  */
+    #section2 h1{
+        font-size: 28px;
+    }
+    #section2 p{
+        width: 90%;
+    }
+    #all-profiles-container{
+        height: auto;
+        display: block;
+        grid-template-columns: 100%;
+        grid-template-rows: 370px;
+        justify-content: space-evenly;
+        margin-top: 75px;
+    }
+
+    /* card hover effect to normal */
+    .card{
+        height: 350px;
+    
+    }
+    .card .image-box{
+        width: 210px;
+        height: 210px;
+    }
+    .card .image-box img{
+        filter: grayscale(0);
+    }
+    .card .card-content .card-details{
+        transform: translateY(0px);
+    }
+    .profile-view-more{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .p-card1{
+        height: 370px;
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    .p-card2{
+        height: 370px;
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    .p-card{
+        height: 370px;
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* --------------------------------- section 3 ----------------------------  */
+    #section3 h1{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    #section3-description{
+        width: 90%;
+    }
+    #blog-container{
+        height: auto;
+        display: block;
+        grid-template-columns: 100%;
+        grid-template-rows: 370px;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+
+    /* card hover effect to normal */
+    .blog-card{
+        height: 450px;
+    
+    }
+    .profile-view-more{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .b-card1{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .b-card2{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .b-card{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .blog-view-more{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /* ------------------------------------------  section 4 ------------------------------------  */
+    #section4-heading{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    #section4-description{
+        width: 90%;
+    }
+    #section4-club-container{
+        height: auto;
+        display: block;
+        grid-template-columns: 100%;
+        grid-template-rows: 370px;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+
+    /* card hover effect to normal */
+    .blog-card{
+        height: 450px;
+    
+    }
+    .club-view-more{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .c-card1{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .c-card2{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .c-card{
+        height: 450px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ------------------------------------------  section 6 ------------------------------------  */
+    #section6-heading{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    #section6-description{
+        width: 90%;
+    }
+    #section6-team-container{
+        height: auto;
+        display: block;
+        grid-template-columns: 100%;
+        grid-template-rows: 370px;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    /* card hover effect to normal */
+    .team-card{
+        height: 450px;
+    
+    }
+    .team-view-more{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .t-card1{
+        height: 450px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    .t-card2{
+        height: 450px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    .t-card{
+        height: 450px;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* ----------------------------------- newsletter--------------------  */
+    #section7{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #section7 h1{
+        font-size: 28px;
+        margin-top: 55px;
+    }
+    #section7-text{
+        font-size: 18px;
+        width: 95%;
+    }
+    
+    #section7-form{
+        width: 80%;
+    }
+    #subscribe-btn{
+        width: auto
+    }
+    #subscribe-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #subscribe-btn p{
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: black;
+    }
+
+    /*-------------------------------------  footer --------------------------  */
+    footer{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+    #footer-container1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-container1 p{
+        width: 90%;
+        text-align: center;
+    }
+
+    
+    #footer-container2, #footer-container3, #footer-container4{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer-container2 a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+
+    #footer-container3 a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    #footer-container4 a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+}

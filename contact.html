@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------------------------fontawesome--------------- -->
+    <script src="https://kit.fontawesome.com/ed378f9c2b.js" crossorigin="anonymous"></script>
+
+    <!-- ------------------ style ---------------------------------- -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- -------------------- respnonsive style ---------------------------  -->
+    <link rel="stylesheet" href="responsive/style.css">
+    <link rel="stylesheet" href="responsive/contact.css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="contact-section">
+        <!-- ------------------ top bar--------------- -->
+        <div id="top-bar" class="uni-padding">
+            <div id="menu-bar-btn" onclick="OpenMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <span id="logo">logo</span>
+
+            <div id="nav-bar">
+                <div id="nav-close-btn">
+                    <a href="javascript:void(0)" onclick="CloseMenu()"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                
+                <div id="nav-contact">
+                    <a href="index.html">Home</a>
+                    <a href="profile_page.html">Profiles</a>
+                    <a href="#">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</a>
+                </div>
+                <div id="header-btn-container" >
+                    <!-- ------------------ top bar btn -----------------------  -->
+                    <div>
+                        <a class="neon-btn login-btn" href="login.html">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa-regular fa-user"></i>
+                            Login
+                        </a>
+                    </div>
+                   <div>
+                    <a class="neon-btn start-btn" href="signup.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Get started
+                    </a>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------- main container ----------------------  -->
+        <div id="container">
+            <!--------------------------  contact details container ----------------------------  -->
+            <div id="contact-container">
+                <h1 id="contact-heading">contact</h1>
+                <p id="contact-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sint eveniet perspiciatis laborum,
+                    neque debitis sapiente cupiditate eos quam ad illum a recusandae aliquam unde optio ipsum
+                    blanditiis!</p>
+                    <h3>Address</h3>
+                    <p class="contact-sub-discription">Lorem ipsum dolor sit, amet consectetur</p>
+                    <h3>Phone</h3>
+                    <p class="contact-sub-discription">+91 98756 41230</p>
+                    <h3>Email</h3>
+                    <p class="contact-sub-discription">xyz@gmail.com</p>
+            </div>
+            <!-- ---------------------------- contact form container -------------------------------  -->
+            <div id="contact-form-container">
+                <div id="contact-form">
+                    <h1>contact form</h1>
+                    <form action="" id="contact-name">
+                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="Your phone">
+                        <input type="email" placeholder="Your email">
+                        <input type="" placeholder="Message">
+                    </form>
+                    <a class="neon-btn login-btn" id="msg-send-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        send message
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
