@@ -1,0 +1,67 @@
+/* -------------------------- club page nav bar ---------------  */
+#nav-club{
+    display: flex;
+    align-items: center;
+}
+#nav-club a{
+    position: relative;
+    margin: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-club a::after{
+    content: "";
+    position: absolute;
+    background: #1FECFD;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+#nav-club a:hover{
+    color: #1FECFD;
+}
+#nav-club a:hover::after{
+    width: 100%;
+}
+
+#nav-club a:nth-child(2){
+    color: #1FECFD;
+}
+#nav-club a:nth-child(2)::after{
+    width: 100%;
+}
+
+
+#club-heading{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    white-space: nowrap;
+    margin-top: 15px;
+}
+
+
+#club-section-grid{
+    background: radial-gradient(#033FAF , black);
+}
+.club-card-container{
+    width: 330px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#club-grid-container{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}

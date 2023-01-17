@@ -1,0 +1,137 @@
+/* -------------------------- contact page nav bar ---------------  */
+#nav-contact{
+    display: flex;
+    align-items: center;
+}
+#nav-contact a{
+    position: relative;
+    margin: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-contact a::after{
+    content: "";
+    position: absolute;
+    background: #1FECFD;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+#nav-contact a:hover{
+    color: #1FECFD;
+}
+#nav-contact a:hover::after{
+    width: 100%;
+}
+
+#nav-contact a:nth-child(4){
+    color: #1FECFD;
+}
+#nav-contact a:nth-child(4)::after{
+    width: 100%;
+}
+
+/* --------------------------------------- contact section --------------------  */
+#contact-section{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(#033FAF , black);
+}
+#container{
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-container{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 50px 75px;
+    justify-content: center;
+}
+/* ------------------------------- contact container heading ---------------------  */
+#contact-container h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* ------------------------------- contact container heading ----------------------------  */
+#contact-discription{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#contact-container h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#contact-form-container{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form{
+    width: 80%;
+    height: 80%;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 75px;
+}
+#contact-form h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+/* ------------------------------------ contact form --------------------------------- */
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#contact-name input{
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+        font-size: 18px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: white;
+}
+#contact-name input:focus{
+    outline: none;
+}
+#msg-send-btn{
+    margin-top: 30px;
+}

@@ -1,0 +1,16 @@
+#profile-section-grid{
+    background: radial-gradient(#033FAF , black);
+}
+.profile-card-container{
+    width: 370px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile-grid-container{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
