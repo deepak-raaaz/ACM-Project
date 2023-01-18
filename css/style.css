@@ -573,10 +573,31 @@ header{
 .blog-card-image-container{
     width: 110%;
     height: 40%;
-    background: url(https://res.cloudinary.com/dshods7mx/image/upload/v1673987474/images/blog_image_xces2f.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.b1{
+    background: url(../images/aiimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b2{
+    background: url(../images/Top-Startups-in-India-2022-innopitch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.b3{
+    background: url(../images/social\ media.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .blog-card-date{
@@ -675,7 +696,24 @@ header{
     border-radius: 70px;
     border: 2px solid #1FECFD;
     margin-bottom: 20px;
-    background: url(https://res.cloudinary.com/dshods7mx/image/upload/v1673987474/images/profile_image_snu1u7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cp1{
+    background: url(../images/inside.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cp2{
+    background: url(../images/csi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cp3{
+    background: url(../images/needs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -791,7 +829,24 @@ header{
     border-radius: 70px;
     border: 2px solid #1FECFD;
     margin-bottom: 20px;
-    background: url(https://res.cloudinary.com/dshods7mx/image/upload/v1673987474/images/profile_image_snu1u7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tm1{
+    background: url(../images/ayush.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tm2{
+    background: url(../images/deepak.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tm3{
+    background: url(../images/suman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
