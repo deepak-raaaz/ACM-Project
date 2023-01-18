@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/profile_page.css">
 
+        <!-- -------------------- respnonsive style ---------------------------  -->
+    <link rel="stylesheet" href="responsive/style.css">
+    <link rel="stylesheet" href="responsive/profile.css">
+
     <title>Profiles</title>
 </head>
 
@@ -21,40 +25,56 @@
     <div id="profile-section-grid">
         <!-- ------------------ top bar--------------- -->
         <div id="top-bar" class="uni-padding">
+            <div id="menu-bar-btn" onclick="OpenMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <span id="logo">logo</span>
-            <div id="nav-profile">
-                <a href="index.html">Home</a>
-                <a href="profile_page.html">Profiles</a>
-                <a href="#">Blog</a>
-                <a href="contact.html">Contact</a>
-                <a href="#">About</a>
-                <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</a>
+
+            <div id="nav-bar">
+                <div id="nav-close-btn">
+                    <a href="javascript:void(0)" onclick="CloseMenu()"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+
+                <div id="nav-profile">
+                    <a href="index.html">Home</a>
+                    <a href="profile_page.html">Profiles</a>
+                    <a href="#">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</a>
+                </div>
+                <div id="header-btn-container">
+                    <!-- ------------------ top bar btn -----------------------  -->
+                    <div>
+                        <a class="neon-btn login-btn" href="login.html">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa-regular fa-user"></i>
+                            Login
+                        </a>
+                    </div>
+                    <div>
+                        <a class="neon-btn start-btn" href="signup.html">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Get started
+                        </a>
+                    </div>
+
+                </div>
             </div>
-            <div id="header-btn-container">
-                <!-- ------------------ top bar btn -----------------------  -->
-                <a class="neon-btn login-btn" href="login.html">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <i class="fa-regular fa-user"></i>
-                    Login
-                </a>
-                <a class="neon-btn start-btn" href="signup.html">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Get started
-                </a>
-            </div>
+            
         </div>
         <div id="profile-grid-container">
             <div class="profile-card-container">
                 <div class="card">
                     <div class="lines"></div>
                     <div class="image-box">
-                        <img src="images/profile_image.jpg" alt="">
+                        <img src="images/Nirmala kaur.jpg" alt="">
                     </div>
                     <div class="card-content">
                         <div class="card-details">
@@ -77,7 +97,7 @@
                 <div class="card">
                     <div class="lines"></div>
                     <div class="image-box">
-                        <img src="images/profile_image.jpg" alt="">
+                        <img src="images/Ranjan Dutta.JPG" alt="">
                     </div>
                     <div class="card-content">
                         <div class="card-details">
@@ -100,7 +120,7 @@
                 <div class="card">
                     <div class="lines"></div>
                     <div class="image-box">
-                        <img src="images/profile_image.jpg" alt="">
+                        <img src="images/madhurima Pandey.jpg" alt="">
                     </div>
                     <div class="card-content">
                         <div class="card-details">
@@ -123,7 +143,7 @@
                 <div class="card">
                     <div class="lines"></div>
                     <div class="image-box">
-                        <img src="images/profile_image.jpg" alt="">
+                        <img src="images/Bipin Mondal.jpg" alt="">
                     </div>
                     <div class="card-content">
                         <div class="card-details">
@@ -238,5 +258,5 @@
         </div>
     </div>
 </body>
-
+<script src="js/script.js"></script>
 </html>

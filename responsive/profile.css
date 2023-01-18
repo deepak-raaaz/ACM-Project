@@ -1,0 +1,60 @@
+/* -------------------------- Nav Bar (Mobile and iPad)--------------------  */
+@media only screen and (max-width: 1170px){
+    .uni-padding{
+        padding: 0;
+    }
+    #nav-bar{
+        background: #012a77;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        z-index: 1;
+        left: -300px;
+        transition: all 0.5s ease;
+    }
+    #nav-profile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #nav-profile a{
+        margin: 20px 30px;
+    }
+
+    /* login and get started btn */
+    #header-btn-container{
+        width: 80%;
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: start;
+    }
+
+    /* Nav Bar btn  */
+    #nav-close-btn{
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 65px;
+    }
+    #nav-close-btn a i{ 
+        color: white;
+        font-size: 30px;
+    }
+    #menu-bar-btn i{
+        color: white;
+        margin: 10px 25px ;
+        font-size: 30px;
+    }
+    #menu-bar-btn, #nav-close-btn{
+        display: block;
+        cursor: pointer;
+    }
+}

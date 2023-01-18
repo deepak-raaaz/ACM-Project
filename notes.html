@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------------------------fontawesome--------------- -->
+    <script src="https://kit.fontawesome.com/ed378f9c2b.js" crossorigin="anonymous"></script>
+
+    <!-- ------------------ style ---------------------------------- -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notes.css">
+
+    <!-- -------------------- respnonsive style ---------------------------  -->
+    <link rel="stylesheet" href="responsive/style.css">
+    <link rel="stylesheet" href="responsive/notes.css">
+
+    <title>Notes</title>
+</head>
+
+<body>
+    <div id="notes-section">
+        <!-- ------------------ top bar--------------- -->
+        <div id="top-bar" class="uni-padding">
+            <div id="menu-bar-btn" onclick="OpenMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <span id="logo">logo</span>
+
+            <div id="nav-bar">
+                <div id="nav-close-btn">
+                    <a href="javascript:void(0)" onclick="CloseMenu()"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                
+                <div id="nav-notes">
+                    <a href="index.html">Home</a>
+                    <a href="profile_page.html">Profiles</a>
+                    <a href="#">Blog</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</a>
+                </div>
+                <div id="header-btn-container" >
+                    <!-- ------------------ top bar btn -----------------------  -->
+                    <div>
+                        <a class="neon-btn login-btn" href="login.html">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa-regular fa-user"></i>
+                            Login
+                        </a>
+                    </div>
+                   <div>
+                    <a class="neon-btn start-btn" href="signup.html">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Get started
+                    </a>
+                   </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------- main container ----------------------  -->
+        <div id="notes-main-container">
+
+            <div class="login-form-container">
+                <div class="login-form-container-line"></div>
+                <div class="login-form-container-card">
+                    <h1>Get Notes</h1>
+                    <span id="login-label"></span>
+    
+                    <div class="login-email login-form">
+                        <i class="fa-solid fa-graduation-cap"></i><input type="text" name="email" id=""
+                            placeholder="Department">
+                    </div>
+    
+                    <div class="login-password login-form">
+                        <i class="fa-solid fa-calendar-days"></i><input type="text" placeholder="Year">
+                    </div>
+
+                    <div class="login-password login-form">
+                        <i class="fa-solid fa-book"></i></i><input type="text" placeholder="Subject">
+                    </div>
+    
+                    <a class="neon-btn login-form-login-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Submit
+                    </a>
+                </div>
+    
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
